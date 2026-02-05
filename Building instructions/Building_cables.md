@@ -21,7 +21,7 @@ Parts needed:
 Cut one end of the XH female-female wire and keep the wire length at around 23cm.
 Place heat shrink on the wires. Solder male XH connector to the wires follow the orientations on the image below. Heat the heat shrink tubes.
 
-<img src="BOM reference images/XH_series_extension_cable.png" alt="drawing" width="5000"/>
+<img src="BOM/BOM%20reference%20images/XH_series_extension_cable.png" alt="drawing" width="500">
 
 ## Building ZH series extension cables
 
@@ -33,7 +33,7 @@ Parts needed:
 Cut one end of the ZH female-female wire and keep the wire length at around 23cm.
 Place heat shrink on the wires. Solder male ZH connector to the wires follow the orientations on the image below. Heat the heat shrink tubes.
 
-<img src="BOM reference images/ZH_series_extension_cable.png" alt="drawing" width="5000"/>
+<img src="BOM/BOM%20reference%20images/ZH_series_extension_cable.png" alt="drawing" width="5000"/>
 
 ## Building Motor to Base Distribution PCB wire
 
