@@ -114,14 +114,14 @@ This BOM lists all components required to build the PAR6 robot arm based on the 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | JST ZH 1.5MM 2PIN female-female 23cm |  |  | J5 motor - J6 motor  | [Link]() |
 | JST XH 2.54MM 2PIN female-female 23cm |  | | J5 motor - J6 motor  | [Link]() |
-| JST ZH 1.5MM 2PIN female-male 23cm |  |  | J5 motor - J6 motor  | [Link]() |
-| JST XH 2.54MM 2PIN female-male 23cm |  | | J5 motor - J6 motor  | [Link]() |
+| JST ZH 1.5MM 2PIN female-male 23cm | Extension wire  |  | J5 motor - J6 motor  | [Link]() |
+| JST XH 2.54MM 2PIN female-male 23cm | Extension wire  | | J5 motor - J6 motor  | [Link]() |
 | JST ZH 1.5MM 2PIN female-female 10cm |  |  | J5 motor - Gripper connector PCB  | [Link]() |
 | JST XH 2.54MM 2PIN female-female 10cm |  | | J5 motor - Gripper connector PCB  | [Link]() |
 | JST ZH 1.5MM 2PIN female-female 23cm |  |  | Gripper connector PCB - J4 wire | [Link]() |
 | JST XH 2.54MM 2PIN female-female 23cm |  | | Gripper connector PCB - J4 wire | [Link]() |
-| JST ZH 1.5MM 2PIN female-male 23cm |  |  | J4 wire - J4 motor  | [Link]() |
-| JST XH 2.54MM 2PIN female-male 23cm |  | | J4 wire - J4 motor  | [Link]() |
+| JST ZH 1.5MM 2PIN female-male 23cm | Extension wire |  | J4 wire - J4 motor  | [Link]() |
+| JST XH 2.54MM 2PIN female-male 23cm | Extension wire | | J4 wire - J4 motor  | [Link]() |
 | JST ZH 1.5MM 2PIN female-female 23cm |  |  | J4 motor - Extension wire base | [Link]() |
 | JST XH 2.54MM 2PIN female-female 23cm |  | | J4 motor - Extension wire base  | [Link]() |
 | JST ZH 1.5MM 2PIN male-bare wire 50cm |  |  | Extension wire base -  Base Distribution PCB | [Link]() |
