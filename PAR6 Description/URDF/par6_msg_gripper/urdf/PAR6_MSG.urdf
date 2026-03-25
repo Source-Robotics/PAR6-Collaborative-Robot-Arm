@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="PAR6_MSG">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.032918423627964 -3.97602362145477E-09 0.0314011608034138"
+        rpy="0 0 0" />
+      <mass
+        value="0.998265338800333" />
+      <inertia
+        ixx="0.00118949401625524"
+        ixy="-3.53594550153641E-12"
+        ixz="-5.94924049151937E-05"
+        iyy="0.00238159101024826"
+        iyz="-6.16822652198136E-11"
+        izz="0.00282485466366564" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="shoulder">
+    <inertial>
+      <origin
+        xyz="0.00656811939880825 0.0290935389673309 0.099551347543145"
+        rpy="0 0 0" />
+      <mass
+        value="0.620900499130961" />
+      <inertia
+        ixx="0.00100663738746705"
+        ixy="-6.26580888440262E-05"
+        ixz="-5.94906456216177E-05"
+        iyy="0.000546947368013689"
+        iyz="-0.000133114961306643"
+        izz="0.00119083362934585" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/shoulder.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/shoulder.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shoulder_JOINT"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="shoulder" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="upper_arm">
+    <inertial>
+      <origin
+        xyz="-0.00854934366236779 -0.0713421424494267 0.0416391335881903"
+        rpy="0 0 0" />
+      <mass
+        value="0.564255649327409" />
+      <inertia
+        ixx="0.00161401505877108"
+        ixy="-2.3762413487102E-05"
+        ixz="-1.23771305810395E-05"
+        iyy="0.000283296701166046"
+        iyz="-0.000134635985563592"
+        izz="0.00163917151493148" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/upper_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/upper_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="upper_arm_JOINT"
+    type="revolute">
+    <origin
+      xyz="0.023421 0 0.1105"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="shoulder" />
+    <child
+      link="upper_arm" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="elbow">
+    <inertial>
+      <origin
+        xyz="0.0155509885239591 -0.0191127686426609 -0.00153322577917109"
+        rpy="0 0 0" />
+      <mass
+        value="0.550970997806043" />
+      <inertia
+        ixx="0.00057827573271994"
+        ixy="0.000116505232322314"
+        ixz="-1.19955293256511E-05"
+        iyy="0.000567011676944701"
+        iyz="1.55814255036018E-05"
+        izz="0.000815862001506842" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/elbow.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/elbow.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="elbow_JOINT"
+    type="revolute">
+    <origin
+      xyz="0 -0.18 0"
+      rpy="3.1416 0 -1.5708" />
+    <parent
+      link="upper_arm" />
+    <child
+      link="elbow" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="lower_arm">
+    <inertial>
+      <origin
+        xyz="0.000527335454629185 -0.0101658497051326 -0.0925926618710919"
+        rpy="0 0 0" />
+      <mass
+        value="0.382768168076152" />
+      <inertia
+        ixx="0.000383809752758758"
+        ixy="-5.71777005742458E-06"
+        ixz="-1.13435862343122E-06"
+        iyy="0.000324613577491975"
+        iyz="-6.4819470273156E-05"
+        izz="0.000252488975982478" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/lower_arm.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/lower_arm.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lower_arm_JOINT"
+    type="revolute">
+    <origin
+      xyz="0.0435 0 0"
+      rpy="1.5708 0 -3.1416" />
+    <parent
+      link="elbow" />
+    <child
+      link="lower_arm" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="wrist">
+    <inertial>
+      <origin
+        xyz="-1.54606600299978E-06 -0.00314847566621398 0.000193929742576537"
+        rpy="0 0 0" />
+      <mass
+        value="0.230864625594321" />
+      <inertia
+        ixx="0.000180829695434151"
+        ixy="-4.63392548736093E-10"
+        ixz="-6.79284338617228E-09"
+        iyy="0.000106212288444716"
+        iyz="2.87958450952461E-06"
+        izz="0.000175598200731164" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/wrist.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/wrist.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wrist_JOINT"
+    type="revolute">
+    <origin
+      xyz="0 0 -0.176999999999995"
+      rpy="-1.57079632679489 0 0" />
+    <parent
+      link="lower_arm" />
+    <child
+      link="wrist" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="gripper">
+    <inertial>
+      <origin
+        xyz="-0.00642470048892474 0.000282668798476438 -0.0695192335056825"
+        rpy="0 0 0" />
+      <mass
+        value="0.167623200457379" />
+      <inertia
+        ixx="0.000140871735417615"
+        ixy="-9.82778432876683E-07"
+        ixz="-2.72691487145471E-06"
+        iyy="2.45392416247037E-05"
+        iyz="-2.78909378823719E-07"
+        izz="0.00013036472950858" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/gripper.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/gripper.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="gripper_JOINT"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5708 0 0" />
+    <parent
+      link="wrist" />
+    <child
+      link="gripper" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="jaw1">
+    <inertial>
+      <origin
+        xyz="0.000317390129572659 -0.0636011550113124 -0.0505219142777576"
+        rpy="0 0 0" />
+      <mass
+        value="0.0267240448883812" />
+      <inertia
+        ixx="1.05776518737304E-05"
+        ixy="4.17466317108795E-08"
+        ixz="-4.94412707881078E-07"
+        iyy="1.02820791329259E-05"
+        iyz="5.30501392593403E-07"
+        izz="1.56447936575552E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/jaw1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.29804 0.29804 0.29804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/jaw1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_jaw1"
+    type="prismatic">
+    <origin
+      xyz="0.02835 0 -0.1409"
+      rpy="-3.1416 0 3.1416" />
+    <parent
+      link="gripper" />
+    <child
+      link="jaw1" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="jaw2">
+    <inertial>
+      <origin
+        xyz="0.000313277058697659 0.0636017321420815 -0.0494862901594326"
+        rpy="0 0 0" />
+      <mass
+        value="0.0267245850480152" />
+      <inertia
+        ixx="1.05767573086608E-05"
+        ixy="-4.18351972636844E-08"
+        ixz="-7.32706121136976E-07"
+        iyy="1.02816308296904E-05"
+        iyz="-5.3239570329707E-07"
+        izz="1.56361148863754E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/jaw2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.29804 0.29804 0.29804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://par6_msg_gripper/meshes/jaw2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_jaw2" type="prismatic">
+    <mimic joint="joint_jaw1" multiplier="-1" offset="0"/>
+    <origin
+      xyz="0.02835 0 -0.1409"
+      rpy="-3.1416 0 3.1416" />
+    <parent
+      link="gripper" />
+    <child
+      link="jaw2" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+
+  <link name="tcp">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.003"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="tcp_fixed_joint" type="fixed">
+    <parent link="gripper"/>
+    <child link="tcp"/>
+    <!-- Adjust this to match your real grasp center -->
+    <origin xyz="0 -0.0 -0.14" rpy="0 0 0"/>
+  </joint>
+
+
+
+<transmission name="gripper_transmission">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="gripper_JOINT">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="gripper_motor">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="jaw_transmission">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_jaw1">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="jaw_motor">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>
+
