@@ -1,6 +1,29 @@
+> [!CAUTION]
+> This is a BETA release: Instructions, code, and 3D print files may change in the future and are not yet finalized.
+
+By building and using this system, you acknowledge that it is still under active development and may contain errors, incomplete features, or design issues. You are doing so entirely at your own risk and responsibility.
+
+This project may require troubleshooting, modifications, and technical knowledge. Proceed only if you are comfortable working with electronics, mechanical systems, and software in a development-stage environment.
+>
+
+## 🐞 Beta Feedback
+
+Since this project is currently in beta, feedback is highly appreciated.
+
+If you find any mistakes, bugs, or unclear parts, please report them, including issues in:
+
+- Documentation
+- BOM and assembly documentation
+- Source code
+- STL and other 3D print files
+
+Please open an issue, send us a message on Discord, or contact us via email with as much detail as possible so we can fix it quickly.
+
+
 <div align="center">
 
-banner Image here
+<img src="Photos/Wireframe_PAR.png" alt="drawing" width="1000"/>
+
 
 # PAR6-Collaborative-Robot-Arm
 
@@ -10,7 +33,7 @@ banner Image here
 ---
 
 
-[![License: MIT](https://img.shields.io/badge/license-GPLv3-blue)](https://opensource.org/license/gpl-3-0/)    ![Issues](https://img.shields.io/github/issues/PCrnjak/PAROL6-Desktop-robot-arm) ![release](https://img.shields.io/github/v/release/PCrnjak/PAROL6-Desktop-robot-arm) [![Powered by the Robotics Toolbox](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/rtb_powered.min.svg)](https://github.com/petercorke/robotics-toolbox-python) ![Last Commit](https://img.shields.io/github/last-commit/PCrnjak/PAROL6-Desktop-robot-arm)
+[![License: CERN-OHL-S v2](https://img.shields.io/badge/license-CERN--OHL--S%20v2-blue)](LICENSE)    ![Issues](https://img.shields.io/github/issues/PCrnjak/PAR6-Collaborative-Robot-Arm) ![release](https://img.shields.io/github/v/release/PCrnjak/PAR6-Collaborative-Robot-Arm) [![Powered by the Robotics Toolbox](https://raw.githubusercontent.com/petercorke/robotics-toolbox-python/master/.github/svg/rtb_powered.min.svg)](https://github.com/petercorke/robotics-toolbox-python) ![Last Commit](https://img.shields.io/github/last-commit/PCrnjak/PAR6-Collaborative-Robot-Arm)
 
 
 <p align="left">
@@ -26,11 +49,9 @@ banner Image here
 
 3D Printed Collaborative Robot - Open Source Software, Manuals & 3D print files ·
 
-Designed for Embodied AI, Safety & Ease of use
+Designed for Embodied/Physical  AI, Safety & Ease of use
 
 
-
-Check the demo here: Link
 
 </div>
 
@@ -38,26 +59,36 @@ Check the demo here: Link
 
 [2025-04-10] Test
 
-[2025-04-03] Code released! This codebase is actively evolving, and we are continuously working to improve it. Contributions from the open-source community are highly encouraged, and we welcome feedback and bug reports through the GitHub Issues page.
+[2025-04-03] Beta Release! Contributions from the open-source community are highly encouraged, and we welcome feedback and bug reports through the GitHub Issues page.
 
 
 ## 📖 Project Overview
 
-learning Embodied AI
+PAR6 is a 3D-printed collaborative robot arm platform designed for research, education, and rapid prototyping in physical AI.
 
-Teleoperation research
+The project combines mechanical design files, assembly documentation, and software resources to support full-stack robotics development.
 
-Imitation learning datasets
+Key focus areas:
 
- AI-native Robotics
-
- VLA model data collection
-
-Robot learning from demonstration
+- Embodied AI and physical AI experiments and validation
+- Teleoperation workflows and human-in-the-loop control
+- Learning from demonstration (LfD) pipelines
+- Imitation learning and dataset generation
+- VLA-style data collection for AI-native robotics
+- Accessible robotics research through open hardware and open documentation
 
 
 
 ## ⚒️How to build / Where to buy?
+
+## 📚Documentation:
+
+| Resource | Description |
+|----------|-------------|
+| [3D Print Files](3D%20Print%20Files/) | Printable STL part files for the PAR6 robot arm,  |
+| [BOM](BOM/) | Bill of materials and reference images for sourcing the required parts |
+| [Building Instructions](Building%20Instructions/) | Assembly notes, cable building instructions, and supporting datasheets |
+| [PAR6 Description](PAR6%20Description/) |  XML files, and URDF resources for simulation  |
 
 ## ⚙️ Hardware Specifications
 
@@ -71,7 +102,6 @@ Schedule:
 | dsa | sad | sad | asd | asd |
 ---
 
-## 📚 Resources
 
 ## 🤝Get Involved
 
@@ -96,6 +126,11 @@ CERN Open Hardware Licence Version 2 - Strongly Reciprocal
 
 
 ## 💸Support us
+
+The majority of this project is open source and freely available to everyone. Your assistance, whether through donations or advice, is highly valued. Thank you!
+
+ [![General badge](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/PCrnjak?locale.x=en_US)
+[![General badge](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/PCrnjak)
 
 ## 🙌 References & Acknowledgments
 
