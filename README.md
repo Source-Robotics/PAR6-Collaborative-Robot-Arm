@@ -96,6 +96,8 @@ Key focus areas:
 | [Building Instructions](Building%20Instructions/) | Assembly notes, cable building instructions, and supporting datasheets |
 | [PAR6 Description](PAR6%20Description/) |  XML files, and URDF resources for simulation  |
 
+Assembly manual is located here: https://youtu.be/3Rrd6hjBnM4
+
 ## ⚙️ Hardware Specifications
 
 
