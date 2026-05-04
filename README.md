@@ -1,5 +1,6 @@
 > [!CAUTION]
-> This is a BETA release: Instructions, code, and 3D print files may change in the future and are not yet finalized.
+> This is a BETA release: Instructions, code, and 3D print files may change in the future and are not yet finalized. If you want to be a part of beta testing check out **this [link!](https://docs.google.com/forms/d/e/1FAIpQLSfJVBVM5K6rCrFRtpijmTBLeePUdGDxUlWBni1VqBrAZwRCwg/viewform
+)**
 
 By building and using this system, you acknowledge that it is still under active development and may contain errors, incomplete features, or design issues. You are doing so entirely at your own risk and responsibility.
 
