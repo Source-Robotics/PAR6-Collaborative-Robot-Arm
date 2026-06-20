@@ -20,6 +20,18 @@ If you find any mistakes, bugs, or unclear parts, please report them, including 
 
 Please open an issue, send us a message on Discord, or contact us via email with as much detail as possible so we can fix it quickly.
 
+## Open TODOs
+
+Open project TODOs as GitHub issues before starting work:
+
+- Search existing issues first.
+- Open one issue per bug, task, or feature request.
+- Include clear steps, expected behavior, logs/photos when useful, and relevant hardware/software versions.
+- Keep each pull request to one logical change.
+- Link the related issue in the pull request and briefly describe what you tested.
+
+More details on how to contribute here: https://github.com/Source-Robotics/.github?tab=contributing-ov-file
+
 
 <div align="center">
 
@@ -118,11 +130,6 @@ Schedule:
 | :--- | :---: | :--- | :--- | :--- |
 | TODO | TODO | TODO | TODO | TODO |
 ---
-
-
-## 🤝Get Involved
-
-
 
 
 ## 🌐 More about PAR6 robotic arm
