@@ -50,10 +50,6 @@ More about URDF here: [Link](./urdf.md)
 3. Added position-controlled actuators for the arm.
 4. Added `scene.xml` which includes the robot, with a textured groundplane, skybox, and haze.
 
-## Contributing
-
-For robot description fixes, please open one issue per model problem and keep pull requests to one logical change. Link the related issue, describe how you tested or validated the URDF/MJCF change, and see the contributing overview for details: https://github.com/Source-Robotics/.github?tab=contributing-ov-file
-
 ## License
 
 This model is released under an [Apache-2.0 License](LICENSE).

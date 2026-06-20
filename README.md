@@ -7,7 +7,7 @@ By building and using this system, you acknowledge that it is still under active
 This project may require troubleshooting, modifications, and technical knowledge. Proceed only if you are comfortable working with electronics, mechanical systems, and software in a development-stage environment.
 >
 
-## 🐞 Beta Feedback
+## 🐞 Beta Feedback & Support
 
 Since this project is currently in beta, feedback is highly appreciated.
 
@@ -20,22 +20,42 @@ If you find any mistakes, bugs, or unclear parts, please report them, including 
 
 Please open an issue, send us a message on Discord, or contact us via email with as much detail as possible so we can fix it quickly.
 
-## Open TODOs
+## 🤝 Contributing
 
-Open project TODOs as GitHub issues before starting work:
+Use GitHub issues to track open work before starting a pull request:
 
-- Search existing issues first.
 - Open one issue per bug, task, or feature request.
-- Include clear steps, expected behavior, logs/photos when useful, and relevant hardware/software versions.
-- Keep each pull request to one logical change.
-- Link the related issue in the pull request and briefly describe what you tested.
+- Keep each pull request focused on one logical change.
+- Link the related issue in the pull request description.
+- Describe what changed and what you tested.
+- For larger changes, open an issue first and agree on the approach before coding.
 
 More details on how to contribute here: https://github.com/Source-Robotics/.github?tab=contributing-ov-file
+
+## 🧩 Open TODOs
+
+Open tasks that contributors can pick up. Before starting work, please open or comment on the related issue so work is not duplicated.
+
+| Area | Task | Status |
+| :--- | :--- | :---: |
+| Documentation | Typos, readability changes, structure for the .md files| Open |
+| Documentation | Finalize BOM,  Fix links, reference images, exact number of parts... | Open |
+| Hardware | Create .3mf print files for robot (follow 3D printn table) | Open |
+| Hardware | Issues in 3D print / model files. | Open |
+| Hardware | Recommendations for easier assembly of the robot | Open |
+| Software | TODO | Open |
+
+Status options: `Open`, `In progress`, `Needs review`, `Blocked`, `Done`.
+
+## Related repos
+* https://github.com/Source-Robotics/STEPFOC-stepper-controller
+* https://github.com/Source-Robotics/RCB-Robot-Control-Box
+
+
 
 
 <div align="center">
 
-<img src="Photos/Wireframe_PAR.png" alt="drawing" width="1000"/>
 
 
 # PAR6-Collaborative-Robot-Arm
@@ -76,8 +96,6 @@ Designed for Embodied/Physical  AI, Safety & Ease of use
 
 ## 💡 News
 
-[2025-04-10] Test
-
 [2025-04-03] Beta Release! Contributions from the open-source community are highly encouraged, and we welcome feedback and bug reports through the GitHub Issues page.
 
 
@@ -100,16 +118,24 @@ Key focus areas:
 
 ## ⚒️How to build / Where to buy?
 
+
+**Check video manuals below, Source all the parts from BOM**
+
+**You will also need to build Control box from this repo:**
+* https://github.com/Source-Robotics/RCB-Robot-Control-Box
+
+
 ## 📚Documentation:
 
 | Resource | Description |
 |----------|-------------|
 | [3D Print Files](3D%20Print%20Files/) | Printable STL part files for the PAR6 robot arm,  |
 | [BOM](BOM/) | Bill of materials and reference images for sourcing the required parts |
-| [Building Instructions](Building%20Instructions/) | Assembly notes, cable building instructions, and supporting datasheets |
+| [Building Instructions](Building%20Instructions/) | Assembly notes, cable building instructions, and supporting datasheets -- **Check Video Manuals below**|
 | [PAR6 Description](PAR6%20Description/) |  XML files, and URDF resources for simulation  |
 
-* Video Assembly manual is located here: https://youtu.be/3Rrd6hjBnM4
+Video Assembly manual
+* https://youtu.be/3Rrd6hjBnM4
 
 Cable Assembly:
 * https://youtu.be/QlNfWAga1l0
@@ -121,16 +147,7 @@ RCB Box:
 
 ## ⚙️ Hardware Specifications
 
-
-## 🗺️ Roadmap & Status
-
-Schedule:
-
-| Task | Status | Description | Documentation |ETA |
-| :--- | :---: | :--- | :--- | :--- |
-| TODO | TODO | TODO | TODO | TODO |
----
-
+TODO
 
 ## 🌐 More about PAR6 robotic arm
 
@@ -146,7 +163,7 @@ Schedule:
 
 ## 🛡️ Licensing
 
-CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+**CERN Open Hardware Licence Version 2 - Strongly Reciprocal**
 
 
 ## 💸Support us
