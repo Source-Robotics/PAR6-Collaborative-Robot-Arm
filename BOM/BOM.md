@@ -1,12 +1,15 @@
-# PAROL6 – Bill of Materials (BOM)
+# PAR6 – Bill of Materials (BOM)
 
 This BOM lists all components required to build the PAR6 robot arm based on the official kiting list.
+
+> [!NOTE]
+> If any product links are broken, unavailable, or no longer point to the correct item, please [open an issue](https://github.com/Source-Robotics/PAR6-Collaborative-Robot-Arm/issues/new), send us a message on Discord, or contact us via email. You can also use the reference images to find the same or an equivalent part from another supplier.
 
 ---
 
 ## RCB - Robot Control Box
 
-TODO - Check this repository to build your Robot Control Box
+The Robot Control Box is also required for the PAR6 build. Use the separate [RCB Robot Control Box BOM](https://github.com/Source-Robotics/RCB-Robot-Control-Box/blob/main/BOM/BOM.md) for the control box components.
 
 ---
 
@@ -36,22 +39,28 @@ TODO - Check this repository to build your Robot Control Box
 
 ---
 
-[Alt Link](https://s.click.aliexpress.com/e/_oEhMNU5)
 
 ## Gearboxes
 
+> [!NOTE]
+>     **Use EG series gearboxes for best perfromance. You can also mix EG and MG series as you wish for robots joints but for 1 robot you will need 1 x 10:1, 1 x 20:1 and 1 x 25:1 of any type either MG or EG**
+
 | Name | Type | Quantity | Description | Link | ALT link| Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- |:--- |
-| Gearbox 20:1 | Nema 17 20:1 | 2 | EG Series precision planetary | [Link](https://www.omc-stepperonline.com/eg-series-planetary-gearbox-gear-ratio-20-1-backlash-20-arc-min-for-nema-17-stepper-motor-eg17-g20?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_oEhMNU5) | [Link](BOM%20reference%20images/stepper%2020_1.jpg) |
+| Gearbox 20:1 | Nema 17 20:1 | 1 | EG Series precision planetary | [Link](https://www.omc-stepperonline.com/eg-series-planetary-gearbox-gear-ratio-20-1-backlash-20-arc-min-for-nema-17-stepper-motor-eg17-g20?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_oEhMNU5) | [Link](BOM%20reference%20images/stepper%2020_1.jpg) |
 | Gearbox 10:1 | Nema 17 10:1 | 1 | EG Series precision planetary | [Link](https://www.omc-stepperonline.com/eg-series-planetary-gearbox-gear-ratio-10-1-backlash-15-arc-min-for-nema-17-stepper-motor-eg17-g10?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_oEhMNU5) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
-| Gearbox 25:1 | Nema 17 10:1 | 1 | MGL Series precision planetary | [Link](https://www.omc-stepperonline.com/mgl-series-planetary-gearbox-gear-ratio-25-1-backlash-45arc-min-for-5mm-shaft-standard-nema-17-stepper-motor-mgl17-g25?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_c2QcIBnD) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
+| Gearbox 25:1 | Nema 17 25:1 | 1 | EG Series precision planetary | [Link](https://s.click.aliexpress.com/e/_c3b5S46t) | [Alt Link](https://s.click.aliexpress.com/e/_c2QcIBnD) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
 
 
-25:1 Gearbox is still being tested. It might replace 20:1 used in J2!
 
 > [!NOTE]
 >     **You can use Lower quality MSG type reducers. They offer a tradeoff where they are cheaper but have more backlash**
 
+| Name | Type | Quantity | Description | Link | ALT link| Reference Image |
+| :--- | :--- | :--- | :--- | :--- | :--- |:--- |
+| Gearbox 20:1 | Nema 17 20:1 | 1 | MGL Series precision planetary | [Link](https://www.omc-stepperonline.com/mgl-series-planetary-gearbox-gear-ratio-20-1-backlash-45arc-min-for-5mm-shaft-standard-nema-17-stepper-motor-mgl17-g20?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_c3JNRXad) | [Link](BOM%20reference%20images/stepper%2020_1.jpg) |
+| Gearbox 10:1 | Nema 17 10:1 | 1 | MGL Series precision planetary | [Link](https://www.omc-stepperonline.com/mgl-series-planetary-gearbox-gear-ratio-10-1-backlash-30arc-min-for-5mm-shaft-standard-nema-17-stepper-motor-mgl17-g10?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_c3JNRXad) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
+| Gearbox 25:1 | Nema 17 25:1 | 1 | MGL Series precision planetary | [Link](https://www.omc-stepperonline.com/mgl-series-planetary-gearbox-gear-ratio-25-1-backlash-45arc-min-for-5mm-shaft-standard-nema-17-stepper-motor-mgl17-g25?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_c3JNRXad) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
 
 ---
 
@@ -79,26 +88,36 @@ TODO - Check this repository to build your Robot Control Box
 
 ---
 
+## Shaft couplers
+
+> [!NOTE]
+>     **Joints 2 and 3 can use different shaft coupler options. Choose only one J2/J3 option below (quantity 2 total). Option 1 gives the best performance if you use the official shaft coupler or machine an equivalent part from the [custom and machined parts](Custom%20%26%20machined%20parts) files. Option 2 is a friction/tension based coupler. Option 3 uses the same coupler as the gripper/flange, but is more prone to slipping and requires the [alternative upper arm STL files](../3D%20Print%20Files/STL/A4_Upper_arm/Alternative%20files).**
+
+| Option | Name | Type | Quantity | Description | Link | ALT link | Reference Image |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Option 1 - Recommended | Shaft coupler | For J2 & J3 | 2 | Official or machined D8 oval flange coupler; best performance. See [custom and machined parts](Custom%20%26%20machined%20parts). | [Link](https://s.click.aliexpress.com/e/_c3UQtavB) | | [Link](BOM%20reference%20images/shaft_coupler_J2_J3.png) |
+| Option 2 | Shaft coupler | For J2 & J3 | 2 | Friction/tension based D8 oval flange coupler; easier to source, but can slip more than Option 1 | [Link](https://s.click.aliexpress.com/e/_c3UQtavB) | | [Link](BOM%20reference%20images/shaft_coupler_J2_J3.png) |
+| Option 3 | Shaft coupler | For J2 & J3 | 2 | Gripper/flange style coupler; most prone to slipping and requires the [alternative upper arm STL files](../3D%20Print%20Files/STL/A4_Upper_arm/Alternative%20files) | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7) | | [Link](BOM%20reference%20images/shaft%20coupler%20gripper.png) |
+| Required for grippers and flanges | Shaft coupler | For gripper / flange | 1 | M4 screw holes for the end flange or gripper | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7) | | [Link](BOM%20reference%20images/shaft%20coupler%20gripper.png) |
+
+
 ## Bearings and Mechanical Components
 
 | Name | Type | Quantity | Description | Link | ALT link| Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Shaft coupler | For J2 & J3 | 2 | M2.5 screw holes | [Link](TODO) | |[Link](BOM%20reference%20images/shaft_coupler_J2_J3.png) |
-| Shaft coupler | For gripper / flange | 1 | M4 screw holes | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7) | |[Link](BOM%20reference%20images/shaft%20coupler%20gripper.png) |
 | AXK3552 | AXK3552 needle bearing | 1 | 35X52X4, with plates | [Link](https://s.click.aliexpress.com/e/_Dk4bHg7) | |[Link](BOM%20reference%20images/AXK3552%20needle%20bearing.png) |
 | NSK HR32906J| NSK HR32906J  Tapered bearing| 5 | Joint 5, 4 and 3 | [Link](https://s.click.aliexpress.com/e/_DcJMtBl) | |[Link](BOM%20reference%20images/Tapered%20bearing.png) |
 | NSK HR32907J | NSK HR32907J Tapered bearing | 4 | Joint 1 and 2 | [Link](https://s.click.aliexpress.com/e/_DcJMtBl) | |[Link](BOM%20reference%20images/Tapered%20bearing.png) |
 | Tensioning bearing | 3x8x4 | 2 | Ball bearing for belts | [Link](https://s.click.aliexpress.com/e/_DCjfgFV) | |[Link](BOM%20reference%20images/small%20tension%20bearings.png) |
 | Tensioning bearing | 3x10x4 | 8 | Ball bearing for belts | [Link](https://s.click.aliexpress.com/e/_DlA33Af) | |[Link](BOM%20reference%20images/small%20tension%20bearings.png) |
-| Brass inserts |  | 6 | M3, 5mm len, 4.5 OD| [Link](https://s.click.aliexpress.com/e/_c2RX6lzp) | |[Link](BOM%20reference%20images/brass_insert.png) |
  
+## Mechanical Components
 
+| Name | Type | Quantity | Description | Link | ALT link| Reference Image |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Brass inserts |  | 6 | M3, 5mm len, 4.5 OD, used for Flange| [Link](https://s.click.aliexpress.com/e/_c2RX6lzp) | |[Link](BOM%20reference%20images/brass_insert.png) |
 
 ---
-
-
-> [!NOTE]
->     **There is option to use only shaft couplers used for the gripper in the whole build but they are more prone to slipping. If doint that be sure to print alternative parts located in Upper_arm STL folder**
 
 
 ## Electronics
@@ -106,6 +125,7 @@ TODO - Check this repository to build your Robot Control Box
 | Component | Type | Quantity | Description | Link | ALT link| Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Closed loop Stepper Drivers | STEPFOC | 6 | Stepper Drivers | [Link](https://source-robotics.com/products/stepfoc-stepper-controller) | |[Link](BOM%20reference%20images/STEPFOC%20stepper%20driver.png) |
+| Magnet | STEPFOC | 6 | Stepper Drivers encoder magnets | [Link](https://source-robotics.com/products/stepfoc-stepper-controller) | |[Link](BOM%20reference%20images/STEPFOC%20stepper%20driver.png) |
 | Thermistor  | Thermistor NTC 100K 3950 | 6 | | [Link](https://source-robotics.com/products/100k-ntc-thermistor) | |[Link](BOM%20reference%20images/Thermistor.png) |
 | Gripper connector PCB |  | 1 |  | [Link](TODO) | |[Link](BOM%20reference%20images/Gripper%20connector%20PCB.jpg) |
 | Hall sensor PCB |  | 1 |  | [Link](TODO) | |[Link](BOM%20reference%20images/Hall%20sensor%20PCB.jpg) |
@@ -118,42 +138,42 @@ TODO - Check this repository to build your Robot Control Box
 
 ---
 
+
+
+
 ## Wires
 
 | Name | Type | Quantity | Description | Link | ALT link| Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| JST ZH 1.5MM 2PIN female-female 23cm |  |  | J5 motor - J6 motor  | [Link]() |
-| JST XH 2.54MM 2PIN female-female 23cm |  | | J5 motor - J6 motor  | [Link]() |
-| JST ZH 1.5MM 2PIN female-male 23cm | Extension wire  |  | J5 motor - J6 motor  | [Link]() |
-| JST XH 2.54MM 2PIN female-male 23cm | Extension wire  | | J5 motor - J6 motor  | [Link]() |
+| JST ZH 1.5MM 2PIN female-female 23cm |  |  | J5 motor - J6 motor, Gripper connector PCB - J4 wire, J4 motor - Extension wire base  | [Link]() |
+| JST XH 2.54MM 2PIN female-female 23cm |  | | J5 motor - J6 motor, Gripper connector PCB - J4 wire, J4 motor - Extension wire base  | [Link]() |
+| JST ZH 1.5MM 2PIN female-male 23cm | Extension wire  |  | J5 motor - J6 motor,  J4 wire - J4 motor  | [Link]() |
+| JST XH 2.54MM 2PIN female-male 23cm | Extension wire  | | J5 motor - J6 motor,  J4 wire - J4 motor  | [Link]() |
 | JST ZH 1.5MM 2PIN female-female 10cm |  |  | J5 motor - Gripper connector PCB  | [Link]() |
 | JST XH 2.54MM 2PIN female-female 10cm |  | | J5 motor - Gripper connector PCB  | [Link]() |
-| JST ZH 1.5MM 2PIN female-female 23cm |  |  | Gripper connector PCB - J4 wire | [Link]() |
-| JST XH 2.54MM 2PIN female-female 23cm |  | | Gripper connector PCB - J4 wire | [Link]() |
-| JST ZH 1.5MM 2PIN female-male 23cm | Extension wire |  | J4 wire - J4 motor  | [Link]() |
-| JST XH 2.54MM 2PIN female-male 23cm | Extension wire | | J4 wire - J4 motor  | [Link]() |
-| JST ZH 1.5MM 2PIN female-female 23cm |  |  | J4 motor - Extension wire base | [Link]() |
-| JST XH 2.54MM 2PIN female-female 23cm |  | | J4 motor - Extension wire base  | [Link]() |
 | JST ZH 1.5MM 2PIN male-bare wire 50cm |  |  | Extension wire base -  Base Distribution PCB | [Link]() |
 | JST XH 2.54MM 2PIN male-bare wire 50cm |  | | Extension wire base -  Base Distribution PCB  | [Link]() |
-| JST ZH 1.5MM 2PIN female-bare wire 50cm |  |  | J3 motor -  Base Distribution PCB,  | [Link]() |
-| JST XH 2.54MM 2PIN female-bare wire 50cm |  | | J3 motor -  Base Distribution PCB  | [Link]() |
-| JST ZH 1.5MM 2PIN female-bare wire 50cm |  |  | J2 motor -  Base Distribution PCB | [Link]() |
-| JST XH 2.54MM 2PIN female-bare wire 50cm |  | | J2 motor -  Base Distribution PCB  | [Link]() |
-| JST ZH 1.5MM 2PIN female-bare wire 50cm |  |  | J1 motor -  Base Distribution PCB | [Link]() |
-| JST XH 2.54MM 2PIN female-bare wire 50cm |  | | J1 motor -  Base Distribution PCB  | [Link]() |
-| JST ZH 1.5MM 2PIN female-bare wire 10cm |  |  |  GX16 connector -  Base Distribution PCB | [Link]() |
-| JST XH 2.54MM 2PIN female-bare wire 10cm |  | | GX16 connector -  Base Distribution PCB  | [Link]() |
-| Thin wire 3 colors 20 cm |  | | Hall sensor PCB - J6 motor  | [Link]() |
+| JST ZH 1.5MM 2PIN female-bare wire 50cm |  |  | J3 motor -  Base Distribution PCB, J2 motor -  Base Distribution PCB, J1 motor -  Base Distribution PCB| [Link]() |
+| JST XH 2.54MM 2PIN female-bare wire 50cm |  | | J3 motor -  Base Distribution PCB, J2 motor -  Base Distribution PCB, J1 motor -  Base Distribution PCB    | [Link]() |
+| 18AWG wire 4 colors |  |  |  GX16 connector -  Base Distribution PCB | [Link]() |
+| Thin wire 3 colors 20 cm AWG 30 - 35|  | | Hall sensor PCB - J6 motor  | [Link]() |
 
 ---
+
+
+
+
+
+
+
+
 
 
 > [!IMPORTANT]
 >     **Cable building guide is [here](.\Building%20instruction\Building_cables.md)**
 
 > [!IMPORTANT]
->     **If you dont want to build the cables yourself you can get the cable pack from our store**
+>     **If you dont want to build the cables yourself you can get the cable pack from our store (Coming soon)**
 
 
 
