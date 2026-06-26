@@ -79,10 +79,10 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 
 | Name | Type | Quantity | Description | Link | ALT link| Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Joint 1 belt | HTD3M 396 | 1 | 6 mm width | [Link](https://s.click.aliexpress.com/e/_Dn5FasX) | |[Link](BOM%20reference%20images/HTD%203M%20belt.png) |
-| Joint 3 belt | HTD3M 342 | 1 | 6 mm width | [Link](https://s.click.aliexpress.com/e/_DeIf41z) | |[Link](BOM%20reference%20images/HTD%203M%20belt.png) |
-| Joint 4 belt | HTD3M 201 | 1 | 6 mm width | [Link](https://s.click.aliexpress.com/e/_Dc9GUKX) | |[Link](BOM%20reference%20images/HTD%203M%20belt.png) |
-| Joint 5 belt | HTD3M 246 | 1 | 6 mm width | [Link](https://s.click.aliexpress.com/e/_Dm2tHRd) | |[Link](BOM%20reference%20images/HTD%203M%20belt.png) |
+| Joint 1 belt | HTD3M 396 | 1 | 6 mm width | [Link](https://s.click.aliexpress.com/e/_c3LnffKl) | |[Link](BOM%20reference%20images/HTD%203M%20belt.png) |
+| Joint 3 belt | HTD3M 342 | 1 | 6 mm width | [Link](https://s.click.aliexpress.com/e/_c4O7CHOd) | |[Link](BOM%20reference%20images/HTD%203M%20belt.png) |
+| Joint 4 belt | HTD3M 201 | 1 | 6 mm width | [Link](https://s.click.aliexpress.com/e/_c4NiUycd) | |[Link](BOM%20reference%20images/HTD%203M%20belt.png) |
+| Joint 5 belt | HTD3M 246 | 1 | 6 mm width | [Link](https://s.click.aliexpress.com/e/_c4DlcQaD) | |[Link](BOM%20reference%20images/HTD%203M%20belt.png) |
 | J4/J5 Pulley | HTD3M 12T | 2 | 5mm bore, 10mm width | [Link](https://s.click.aliexpress.com/e/_DBVgkVp) | |[Link](BOM%20reference%20images/HTD%203M%20pulley.png) |
 | J1 Pulley | HTD3M 15T | 1 | 5mm bore, 10mm width | [Link](https://s.click.aliexpress.com/e/_DBVgkVp) | |[Link](BOM%20reference%20images/HTD%203M%20pulley.png) |
 
@@ -95,8 +95,8 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 
 | Option | Name | Type | Quantity | Description | Link | ALT link | Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Option 1 - Recommended | Shaft coupler | For J2 & J3 | 2 | Official or machined D8 oval flange coupler; best performance. See [custom and machined parts](Custom%20%26%20machined%20parts). | [Link](https://s.click.aliexpress.com/e/_c3UQtavB) | | [Link](BOM%20reference%20images/shaft_coupler_J2_J3.png) |
-| Option 2 | Shaft coupler | For J2 & J3 | 2 | Friction/tension based D8 oval flange coupler; easier to source, but can slip more than Option 1 | [Link](https://s.click.aliexpress.com/e/_c3UQtavB) | | [Link](BOM%20reference%20images/shaft_coupler_J2_J3.png) |
+| Option 1 - Recommended Coming soon! | Shaft coupler | For J2 & J3 | 2 | Official or machined D8 oval flange coupler; best performance. See [custom and machined parts](Custom%20%26%20machined%20parts). | [Link](https://s.click.aliexpress.com/e/_c3UQtavB) | | [Link](BOM%20reference%20images/source_coupler.png) |
+| Option 2 | Shaft coupler | For J2 & J3 | 2 | Friction/tension based D8 oval flange coupler; easier to source, but can slip more than Option 1 | [Link](https://s.click.aliexpress.com/e/_c3UQtavB) | | [Link](BOM%20reference%20images/D8_Oval_flange_coupler.png) |
 | Option 3 | Shaft coupler | For J2 & J3 | 2 | Gripper/flange style coupler; most prone to slipping and requires the [alternative upper arm STL files](../3D%20Print%20Files/STL/A4_Upper_arm/Alternative%20files) | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7) | | [Link](BOM%20reference%20images/shaft%20coupler%20gripper.png) |
 | Required for grippers and flanges | Shaft coupler | For gripper / flange | 1 | M4 screw holes for the end flange or gripper | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7) | | [Link](BOM%20reference%20images/shaft%20coupler%20gripper.png) |
 
@@ -125,7 +125,7 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 | Component | Type | Quantity | Description | Link | ALT link| Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Closed loop Stepper Drivers | STEPFOC | 6 | Stepper Drivers | [Link](https://source-robotics.com/products/stepfoc-stepper-controller) | |[Link](BOM%20reference%20images/STEPFOC%20stepper%20driver.png) |
-| Magnet | STEPFOC | 6 | Stepper Drivers encoder magnets | [Link](https://source-robotics.com/products/stepfoc-stepper-controller) | |[Link](BOM%20reference%20images/STEPFOC%20stepper%20driver.png) |
+| Magnets | Diametrically Magnetised Magnets | 6 | Stepper Drivers encoder magnets | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) | |[Link](BOM%20reference%20images/Magnet.png) |
 | Thermistor  | Thermistor NTC 100K 3950 | 6 | | [Link](https://source-robotics.com/products/100k-ntc-thermistor) | |[Link](BOM%20reference%20images/Thermistor.png) |
 | Gripper connector PCB |  | 1 |  | [Link](TODO) | |[Link](BOM%20reference%20images/Gripper%20connector%20PCB.jpg) |
 | Hall sensor PCB |  | 1 |  | [Link](TODO) | |[Link](BOM%20reference%20images/Hall%20sensor%20PCB.jpg) |
@@ -134,7 +134,7 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 | E-stop | 19mm | 1 | Emergency switch | [Link](https://s.click.aliexpress.com/e/_c3TdMLgT) | |[Link](BOM%20reference%20images/19mm%20ESTOP.png) |
 | Connectors JST ZH 1.5MM 2PIN male  |  | 10 | Used to make custom cables | [Link](https://s.click.aliexpress.com/e/_c37crJFp) | |[Link](BOM%20reference%20images/Connectors%20JST%20ZH.png) |
 | Connectors JST XH 2.54MM 2PIN male |  | 10 | Used to make custom cables | [Link](https://s.click.aliexpress.com/e/_c2xeSW0J) | |[Link](BOM%20reference%20images/Connectors%20JST%20XH.jpg) |
-| Thermal cement |  | 1 | Used to attach thermistor to stepper motor | [Link](https://s.click.aliexpress.com/e/_c2Qk11hV) | |[Link](BOM%20reference%20images/Thermal%20cement.jpg) |
+| Thermal cement |  | 1 | Used to attach thermistor to stepper motor | [Link](https://s.click.aliexpress.com/e/_c3t5DkcN) | |[Link](BOM%20reference%20images/Thermal%20cement.jpg) |
 
 ---
 
@@ -143,20 +143,26 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 
 ## Wires
 
+> [!IMPORTANT]
+>     **If you dont want to build the wires yourself you can get the wire pack from our store (Coming soon)**
+
+> [!NOTE]
+>     **With wires make sure you follow [proper orientation](BOM%20reference%20images/ZH_XH_cable_direction.png) of the connector heads when ordering!**
+
 | Name | Type | Quantity | Description | Link | ALT link| Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| JST ZH 1.5MM 2PIN female-female 23cm |  |  | J5 motor - J6 motor, Gripper connector PCB - J4 wire, J4 motor - Extension wire base  | [Link]() |
-| JST XH 2.54MM 2PIN female-female 23cm |  | | J5 motor - J6 motor, Gripper connector PCB - J4 wire, J4 motor - Extension wire base  | [Link]() |
-| JST ZH 1.5MM 2PIN female-male 23cm | Extension wire  |  | J5 motor - J6 motor,  J4 wire - J4 motor  | [Link]() |
-| JST XH 2.54MM 2PIN female-male 23cm | Extension wire  | | J5 motor - J6 motor,  J4 wire - J4 motor  | [Link]() |
-| JST ZH 1.5MM 2PIN female-female 10cm |  |  | J5 motor - Gripper connector PCB  | [Link]() |
-| JST XH 2.54MM 2PIN female-female 10cm |  | | J5 motor - Gripper connector PCB  | [Link]() |
-| JST ZH 1.5MM 2PIN male-bare wire 50cm |  |  | Extension wire base -  Base Distribution PCB | [Link]() |
-| JST XH 2.54MM 2PIN male-bare wire 50cm |  | | Extension wire base -  Base Distribution PCB  | [Link]() |
-| JST ZH 1.5MM 2PIN female-bare wire 50cm |  |  | J3 motor -  Base Distribution PCB, J2 motor -  Base Distribution PCB, J1 motor -  Base Distribution PCB| [Link]() |
-| JST XH 2.54MM 2PIN female-bare wire 50cm |  | | J3 motor -  Base Distribution PCB, J2 motor -  Base Distribution PCB, J1 motor -  Base Distribution PCB    | [Link]() |
-| 18AWG wire 4 colors |  |  |  GX16 connector -  Base Distribution PCB | [Link]() |
-| Thin wire 3 colors 20 cm AWG 30 - 35|  | | Hall sensor PCB - J6 motor  | [Link]() |
+| JST ZH 1.5MM 2PIN female-female 20-30cm |  | 3 | J5 motor - J6 motor, Gripper connector PCB - J4 wire, J4 motor - Extension wire base  | [Link](https://s.click.aliexpress.com/e/_c4CyWKe1) | |[Link](BOM%20reference%20images/ZH_XH_cable_direction.png) |
+| JST XH 2.54MM 2PIN female-female 20-30cm |  | 3| J5 motor - J6 motor, Gripper connector PCB - J4 wire, J4 motor - Extension wire base  | [Link](https://s.click.aliexpress.com/e/_c4CyWKe1) | |[Link](BOM%20reference%20images/ZH_XH_cable_direction.png) |
+| JST ZH 1.5MM 2PIN female-male 23cm | Extension wire (best to build your own)  | 2 | J5 motor - J6 motor,  J4 wire - J4 motor  | [Link]() | |[Link](BOM%20reference%20images/ZH_series_extension_cable.png) |
+| JST XH 2.54MM 2PIN female-male 23cm | Extension wire (best to build your own)  |2 | J5 motor - J6 motor,  J4 wire - J4 motor  | [Link]() | |[Link](BOM%20reference%20images/XH_series_extension_cable.png) |
+| JST ZH 1.5MM 2PIN female-female 10cm |  | 1 | J5 motor - Gripper connector PCB  | [Link](https://s.click.aliexpress.com/e/_c4CyWKe1) | |[Link](BOM%20reference%20images/ZH_XH_cable_direction.png) |
+| JST XH 2.54MM 2PIN female-female 10cm |  |1 | J5 motor - Gripper connector PCB  | [Link](https://s.click.aliexpress.com/e/_c4CyWKe1) | |[Link](BOM%20reference%20images/ZH_XH_cable_direction.png) |
+| JST ZH 1.5MM 2PIN male-bare wire 50cm | Best to build your own by extending the linked wires | 1 | Extension wire base -  Base Distribution PCB | [Link](https://s.click.aliexpress.com/e/_c4CyWKe1) |
+| JST XH 2.54MM 2PIN male-bare wire 50cm | Best to build your own by extending the linked wires | 1| Extension wire base -  Base Distribution PCB  | [Link](https://s.click.aliexpress.com/e/_c4CyWKe1) |
+| JST ZH 1.5MM 2PIN female-bare wire 50cm | Best to build your own by extending the linked wires | 3 | J3 motor -  Base Distribution PCB, J2 motor -  Base Distribution PCB, J1 motor -  Base Distribution PCB| [Link](https://s.click.aliexpress.com/e/_c4CyWKe1) |
+| JST XH 2.54MM 2PIN female-bare wire 50cm |Best to build your own by extending the linked wires  | 3| J3 motor -  Base Distribution PCB, J2 motor -  Base Distribution PCB, J1 motor -  Base Distribution PCB    | [Link](https://s.click.aliexpress.com/e/_c4CyWKe1) |
+| 18AWG wire 4 colors |  4 wires of 10cm|  |  GX16 connector -  Base Distribution PCB | [Link](https://s.click.aliexpress.com/e/_c3gZPIyV) | |[Link]() |
+| Thin wire 3 colors 20 cm AWG 30 - 35|  | | Hall sensor PCB - J6 motor  | [Link](https://s.click.aliexpress.com/e/_c2v3zfdb) | |[Link]() |
 
 ---
 
@@ -188,8 +194,8 @@ Officially supported open-source grippers are:
 
 | Name | Type | Link to buy | Link to build |
 | :--- | :--- | :--- | :--- |
-MSG compliant AI gripper | Electric - CAN bus comms|  [Link](TODO)  | [Link](TODO)  |
-SSG48 compliant gripper | Electric - CAN bus comms|  [Link](TODO) | [Link](TODO)  |
+MSG compliant AI gripper | Electric - CAN bus comms|  [Link](https://source-robotics.com/products/msg-gripper)  | [Link](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper)  |
+SSG48 compliant gripper | Electric - CAN bus comms|  [Link](https://source-robotics.com/products/compliant-gripper) | [Link](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper)  |
 
 > [!NOTE]
 >     **MSG gripper come in different grip and torque sizes!**

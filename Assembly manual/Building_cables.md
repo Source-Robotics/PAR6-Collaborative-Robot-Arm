@@ -33,6 +33,8 @@ Sizes we need for PAR6 are:
 
 ## XH series extension cables
 
+[Video reference](https://youtu.be/GOb1vQsjfOs)
+
 Parts needed:
 * XH male connector
 * XH female - female wire (or female - bare wire)
@@ -44,6 +46,8 @@ Place heat shrink on the wires. Solder male XH connector to the wires. Follow th
 <img src="../BOM/BOM%20reference%20images/XH_series_extension_cable.png" alt="drawing" width="500">
 
 ## ZH series extension cables
+
+[Video reference](https://youtu.be/GOb1vQsjfOs)
 
 Parts needed:
 * ZH male connector
@@ -77,6 +81,8 @@ Parts needed:
 Solder male connectors the same way as when building ZH or XH extenstion cables. 
 
 ## PAR6 Robot cable (Robot base to RCB (Robot Control Box) cable)
+
+[Video reference](https://youtu.be/QlNfWAga1l0)
 
 Parts needed:
 * [2 x GX16 4PIN connector female](https://s.click.aliexpress.com/e/_c3o4afqR)
