@@ -30,6 +30,14 @@ Use GitHub issues to track open work before starting a pull request:
 - Describe what changed and what you tested.
 - For larger changes, open an issue first and agree on the approach before coding.
 
+ ### How you can contribute
+
+Review issues: reproduce bugs reported by others, spot duplicates, improve descriptions, and help users who need support.
+Submit fixes: pick an open issue or feature request and submit a pull request with your implementation.
+Test pull requests: run proposed changes and report your results — testing on real hardware is invaluable.
+Review contributions: help others by reviewing code and suggesting better implementation approaches.
+Improve documentation: write new content or polish what's already there.
+
 More details on how to contribute here: https://github.com/Source-Robotics/.github?tab=contributing-ov-file
 
 ## 🧩 Open TODOs
@@ -46,6 +54,14 @@ Open tasks that contributors can pick up. Before starting work, please open or c
 | Software | TODO | Open |
 
 Status options: `Open`, `In progress`, `Needs review`, `Blocked`, `Done`.
+
+ ### How you can contribute
+
+* Triage issues: reproduce bugs reported by others, spot duplicates, improve descriptions, and help users who need support.
+* Submit fixes: pick an open issue or feature request and submit a pull request with your implementation.
+* Test pull requests: run proposed changes and report your results — testing on real hardware is invaluable.
+* Review contributions: help others by reviewing code and suggesting better implementation approaches.
+* Improve documentation: write new content or polish what's already there.
 
 ## Related repos
 * https://github.com/Source-Robotics/STEPFOC-stepper-controller
