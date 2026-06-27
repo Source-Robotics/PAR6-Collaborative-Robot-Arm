@@ -28,7 +28,7 @@ Sizes we need for PAR6 are:
 * 2 x 10cm XH dual female head/plug connector
 * 2 x 10cm ZH dual female head/plug connector
 
-* x x 23cm (difficult size to find use 25 or 30)
+* x x 23cm (difficult size to find use 20 or 30)
 
 
 ## XH series extension cables
@@ -65,9 +65,13 @@ These wires have a female head on one side and bare wires on the another. They c
 
 Parts needed:
 * ZH female-female wire or female - bare wire 
+* XH female-female wire or female - bare wire 
 
 Cut one end of the wire and keep the length of the wire at around **50cm**.
 
+<img src="../BOM/BOM%20reference%20images/barewire2.png" alt="drawing" width="500"/>
+
+<img src="../BOM/BOM%20reference%20images/barewire3.png" alt="drawing" width="500"/>
 
 ## Extension wire base -  Base Distribution PCB
 
@@ -76,9 +80,13 @@ These wires have a male head connector on one side and bare wires on the another
 Parts needed:
 * XH male connector
 * ZH male connector
-* Bare wires (2 colors black and white 24 AWG)
+* Bare wires (2 colors, 24 AWG)
 
 Solder male connectors the same way as when building ZH or XH extenstion cables. 
+
+<img src="../BOM/BOM%20reference%20images/barewire1.png" alt="drawing" width="500"/>
+
+<img src="../BOM/BOM%20reference%20images/barewire4.png" alt="drawing" width="500"/>
 
 ## PAR6 Robot cable (Robot base to RCB (Robot Control Box) cable)
 
