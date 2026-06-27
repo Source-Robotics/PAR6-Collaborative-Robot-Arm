@@ -73,7 +73,7 @@ Cut one end of the wire and keep the length of the wire at around **50cm**.
 
 <img src="../BOM/BOM%20reference%20images/barewire3.png" alt="drawing" width="500"/>
 
-## Extension wire base -  Base Distribution PCB
+## Extension wire J6,5,4 -  Base Distribution PCB
 
 These wires have a male head connector on one side and bare wires on the another. They connect directly to the Base Distribution PCB.
 
@@ -122,7 +122,7 @@ Check the video tutorial [here](TODO)
 
 On the robot arm side and Robot Control Box side the we use this pinout for X16 male connector!
 
-Solder XH wire to the pins 1 and 4. Solder ZH CAN wires to pints 3 and 2. Keep wire length at around 10cm
+Solder Power wires to the pins 1 and 4. Solder CAN wires to pints 3 and 2. Keep wire length at around 10cm
 
 
 ## MSG & SSG48 gripper cable
