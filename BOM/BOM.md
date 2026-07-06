@@ -119,17 +119,24 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 
 ---
 
+## PCBs
+
+| Component | Type | Quantity | Description | Link | ALT link| Reference Image |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Closed loop Stepper Drivers | STEPFOC | 6 | Stepper Drivers | [Link](https://source-robotics.com/products/stepfoc-stepper-controller) | |[Link](BOM%20reference%20images/STEPFOC%20stepper%20driver.png) |
+| Gripper connector PCB |  | 1 | Source Robotics website only for beta for now | [Link](TODO) | |[Link](BOM%20reference%20images/Gripper%20connector%20PCB.jpg) |
+| Hall sensor PCB |  | 1 | Source Robotics website only for beta for now | [Link](TODO) | |[Link](BOM%20reference%20images/Hall%20sensor%20PCB.jpg) |
+| Base Distribution PCB |  | 1 |Source Robotics website only for beta for now | [Link](TODO) | |[Link](BOM%20reference%20images/Base%20Distribution%20board.jpg) |
+
+
 
 ## Electronics
 
 | Component | Type | Quantity | Description | Link | ALT link| Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Closed loop Stepper Drivers | STEPFOC | 6 | Stepper Drivers | [Link](https://source-robotics.com/products/stepfoc-stepper-controller) | |[Link](BOM%20reference%20images/STEPFOC%20stepper%20driver.png) |
-| Magnets | Diametrically Magnetised Magnets | 6 | Stepper Drivers encoder magnets | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) | |[Link](BOM%20reference%20images/Magnet.png) |
+| Motor controller Magnets | Diametrically Magnetised Magnets | 6 | Stepper Drivers encoder magnets | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) | |[Link](BOM%20reference%20images/Magnet.png) |
+| Gripper Magnet | Axial Magnetised Magnets (Regular magnet) | 1 |  |  [Link](https://s.click.aliexpress.com/e/_c4tF3Rzf)  | |[Link](BOM%20reference%20images/Magnet.png) |
 | Thermistor  | Thermistor NTC 100K 3950 | 6 | | [Link](https://source-robotics.com/products/100k-ntc-thermistor) | |[Link](BOM%20reference%20images/Thermistor.png) |
-| Gripper connector PCB |  | 1 | Source Robotics website only for beta for now | [Link](TODO) | |[Link](BOM%20reference%20images/Gripper%20connector%20PCB.jpg) |
-| Hall sensor PCB |  | 1 | Source Robotics website only for beta for now | [Link](TODO) | |[Link](BOM%20reference%20images/Hall%20sensor%20PCB.jpg) |
-| Base Distribution PCB |  | 1 |Source Robotics website only for beta for now | [Link](TODO) | |[Link](BOM%20reference%20images/Base%20Distribution%20board.jpg) |
 | Robot base connector | GX16 4PIN male connector | 1 | Male + Female pair (female part is used in cable making) | [Link](https://s.click.aliexpress.com/e/_c3o4afqR) | |[Link](BOM%20reference%20images/GX16.jpg) |
 | E-stop | 19mm | 1 | Emergency switch | [Link](https://s.click.aliexpress.com/e/_c3TdMLgT) | |[Link](BOM%20reference%20images/19mm%20ESTOP.png) |
 | Connectors JST ZH 1.5MM 2PIN male  |  | 10 | Used to make custom cables | [Link](https://s.click.aliexpress.com/e/_c37crJFp) | |[Link](BOM%20reference%20images/Connectors%20JST%20ZH.png) |
@@ -141,7 +148,7 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 
 
 
-## Wires
+## Wires / Cables
 
 > [!IMPORTANT]
 >     **If you dont want to build the wires yourself you can get the wire pack from our store (Coming soon)**
