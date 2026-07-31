@@ -40,6 +40,24 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 ---
 
 
+
+---
+
+
+## Consumables
+
+| Name | Type | Quantity | Description | Link | 
+| :--- | :--- | :--- | :--- | :--- | 
+| Threadlocker blue | Loctite 243 | 1 | Use for gearbox shaft coupler set screws|  | 
+| Threadlocker green| Loctite 648 | 1 | Use for gearbox shaft couplers and shafts |  | 
+
+
+
+---
+
+
+
+
 ## Gearboxes
 
 > [!NOTE]
