@@ -1,0 +1,1 @@
+This file contains multiple plates with all the parts. In order to be correctly read, it might be necessary to open it using OrcaSlicer. It is for reference only, as there is both single color and multi colors folders available containing ready to print files.
