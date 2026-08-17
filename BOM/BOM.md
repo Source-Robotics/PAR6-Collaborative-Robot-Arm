@@ -188,6 +188,8 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 | JST XH 2.54MM 2PIN female-bare wire 50cm |Best to build your own by extending the linked wires  | 3| J3 motor -  Base Distribution PCB, J2 motor -  Base Distribution PCB, J1 motor -  Base Distribution PCB    | [Link](https://s.click.aliexpress.com/e/_c4CyWKe1) | |[Link](BOM%20reference%20images/barewire2.png) |
 | 18AWG wire 4 colors |  4 wires of 10cm|  |  GX16 connector -  Base Distribution PCB | [Link](https://s.click.aliexpress.com/e/_c3gZPIyV) | |[Link]() |
 | Thin wire 3 colors 20 cm AWG 30 - 35|  | | Hall sensor PCB - J6 motor  | [Link](https://s.click.aliexpress.com/e/_c2v3zfdb) | |[Link]() |
+| Wire 2 colors for XH extensions | 22 or 24 AWG | 5m black + 5m red | Extending XH power cables and building the bare wire cables above | | | |
+| Wire 2 colors for ZH extensions | 28 AWG | 5m black + 5m red | Extending ZH CAN cables and building the bare wire cables above | | | |
 
 ---
 
