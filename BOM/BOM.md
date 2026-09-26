@@ -65,9 +65,9 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 
 | Name | Type | Quantity | Description | Link | ALT link| Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- |:--- |
-| Gearbox 20:1 | Nema 17 20:1 | 1 | EG Series precision planetary | [Link](https://www.omc-stepperonline.com/eg-series-planetary-gearbox-gear-ratio-20-1-backlash-20-arc-min-for-nema-17-stepper-motor-eg17-g20?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_oEhMNU5) | [Link](BOM%20reference%20images/stepper%2020_1.jpg) |
-| Gearbox 10:1 | Nema 17 10:1 | 1 | EG Series precision planetary | [Link](https://www.omc-stepperonline.com/eg-series-planetary-gearbox-gear-ratio-10-1-backlash-15-arc-min-for-nema-17-stepper-motor-eg17-g10?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_oEhMNU5) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
-| Gearbox 25:1 | Nema 17 25:1 | 1 | EG Series precision planetary | [Link](https://s.click.aliexpress.com/e/_c3b5S46t) | [Alt Link](https://s.click.aliexpress.com/e/_c2QcIBnD) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
+| Gearbox 20:1 | Nema 17 20:1 | 1 | (Joint 3 gearbox - Elbow) EG Series precision planetary | [Link](https://www.omc-stepperonline.com/eg-series-planetary-gearbox-gear-ratio-20-1-backlash-20-arc-min-for-nema-17-stepper-motor-eg17-g20?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_oEhMNU5) | [Link](BOM%20reference%20images/stepper%2020_1.jpg) |
+| Gearbox 10:1 | Nema 17 10:1 | 1 | (Joint 6 gearbox - Wrist 3) EG Series precision planetary | [Link](https://www.omc-stepperonline.com/eg-series-planetary-gearbox-gear-ratio-10-1-backlash-15-arc-min-for-nema-17-stepper-motor-eg17-g10?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_oEhMNU5) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
+| Gearbox 25:1 | Nema 17 25:1 | 1 | (Joint 1 gearbox - Shoulder) EG Series precision planetary | [Link](https://s.click.aliexpress.com/e/_c3b5S46t) | [Alt Link](https://s.click.aliexpress.com/e/_c2QcIBnD) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
 
 
 
@@ -76,9 +76,9 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 
 | Name | Type | Quantity | Description | Link | ALT link| Reference Image |
 | :--- | :--- | :--- | :--- | :--- | :--- |:--- |
-| Gearbox 20:1 | Nema 17 20:1 | 1 | MGL Series precision planetary | [Link](https://www.omc-stepperonline.com/mgl-series-planetary-gearbox-gear-ratio-20-1-backlash-45arc-min-for-5mm-shaft-standard-nema-17-stepper-motor-mgl17-g20?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_c3JNRXad) | [Link](BOM%20reference%20images/stepper%2020_1.jpg) |
-| Gearbox 10:1 | Nema 17 10:1 | 1 | MGL Series precision planetary | [Link](https://www.omc-stepperonline.com/mgl-series-planetary-gearbox-gear-ratio-10-1-backlash-30arc-min-for-5mm-shaft-standard-nema-17-stepper-motor-mgl17-g10?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_c3JNRXad) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
-| Gearbox 25:1 | Nema 17 25:1 | 1 | MGL Series precision planetary | [Link](https://www.omc-stepperonline.com/mgl-series-planetary-gearbox-gear-ratio-25-1-backlash-45arc-min-for-5mm-shaft-standard-nema-17-stepper-motor-mgl17-g25?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_c3JNRXad) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
+| Gearbox 20:1 | Nema 17 20:1 | 1 | (Joint 3 gearbox - Elbow) MGL Series precision planetary | [Link](https://www.omc-stepperonline.com/mgl-series-planetary-gearbox-gear-ratio-20-1-backlash-45arc-min-for-5mm-shaft-standard-nema-17-stepper-motor-mgl17-g20?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_c3JNRXad) | [Link](BOM%20reference%20images/stepper%2020_1.jpg) |
+| Gearbox 10:1 | Nema 17 10:1 | 1 | (Joint 6 gearbox - Wrist 3) MGL Series precision planetary | [Link](https://www.omc-stepperonline.com/mgl-series-planetary-gearbox-gear-ratio-10-1-backlash-30arc-min-for-5mm-shaft-standard-nema-17-stepper-motor-mgl17-g10?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_c3JNRXad) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
+| Gearbox 25:1 | Nema 17 25:1 | 1 | (Joint 1 gearbox - Shoulder) MGL Series precision planetary | [Link](https://www.omc-stepperonline.com/mgl-series-planetary-gearbox-gear-ratio-25-1-backlash-45arc-min-for-5mm-shaft-standard-nema-17-stepper-motor-mgl17-g25?tracking=6543849d6ff69) | [Alt Link](https://s.click.aliexpress.com/e/_c3JNRXad) |[Link](BOM%20reference%20images/stepper%2010_1.jpg) |
 
 ---
 
