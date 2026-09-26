@@ -25,7 +25,7 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 | M2 | 10 mm | 2 | DIN 912 / ISO 4762 (Socket head cap) 
 | M2 | 4 mm | 2 | DIN 912 / ISO 4762 (Socket head cap) 
  M3 | 45 mm | 6 | DIN 912 / ISO 4762 (Socket head cap) 
-  M2.5 | 14 mm | 8 | DIN 912 / ISO 4762 (Socket head cap) 
+  M3.5 | 14 mm | 8 | **used for shaft couplers!** DIN 912 / ISO 4762 (Socket head cap) 
 | M3 | 16 mm | 6 | DIN 912 / ISO 4762 (Socket head cap) 
 | M3 | 12 mm | 3 | DIN 912 / ISO 4762 (Socket head cap) 
 | M4 | 16 mm | 16 | DIN 912 / ISO 4762 (Socket head cap) 
