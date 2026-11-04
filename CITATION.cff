@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use PAR6 in your work, please cite it as below."
+title: "PAR6: open-source 3D-printed collaborative robot arm"
+type: software
+authors:
+  - name: Source Robotics
+    website: https://source-robotics.com
+  - given-names: Petar
+    family-names: Crnjak
+abstract: "A 3D-printed collaborative robot arm platform for research, education and rapid prototyping in physical AI, with closed-loop STEPFOC drives and the Robot Control Box. In beta."
+repository-code: https://github.com/Source-Robotics/PAR6-Collaborative-Robot-Arm
+url: https://docs.source-robotics.com/par6/
+license: CERN-OHL-S-2.0
+keywords:
+  - robot arm
+  - collaborative robot
+  - cobot
+  - 6-DOF
+  - open-source hardware
+  - physical AI
+  - VLA
+  - robotics
