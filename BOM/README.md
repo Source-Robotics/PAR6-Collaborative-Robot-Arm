@@ -9,7 +9,7 @@ This BOM lists all components required to build the PAR6 robot arm based on the 
 
 ## RCB - Robot Control Box
 
-The Robot Control Box is also required for the PAR6 build. Use the separate [RCB Robot Control Box BOM](https://github.com/Source-Robotics/RCB-Robot-Control-Box/blob/main/BOM/BOM.md) for the control box components.
+The Robot Control Box is also required for the PAR6 build. Use the separate [RCB Robot Control Box BOM](https://github.com/Source-Robotics/RCB-Robot-Control-Box/tree/main/BOM) for the control box components.
 
 ---
 
