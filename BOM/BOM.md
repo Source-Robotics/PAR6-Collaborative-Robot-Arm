@@ -159,7 +159,7 @@ The Robot Control Box is also required for the PAR6 build. Use the separate [RCB
 | E-stop | 19mm | 1 | Emergency switch | [Link](https://s.click.aliexpress.com/e/_c3TdMLgT) | |[Link](BOM%20reference%20images/19mm%20ESTOP.png) |
 | Connectors JST ZH 1.5MM 2PIN male  |  | 10 | Used to make custom cables | [Link](https://s.click.aliexpress.com/e/_c37crJFp) | |[Link](BOM%20reference%20images/Connectors%20JST%20ZH.png) |
 | Connectors JST XH 2.54MM 2PIN male |  | 10 | Used to make custom cables | [Link](https://s.click.aliexpress.com/e/_c2xeSW0J) | |[Link](BOM%20reference%20images/Connectors%20JST%20XH.jpg) |
-| Thermal cement |  | 1 | Used to attach thermistor to stepper motor | [Link](https://s.click.aliexpress.com/e/_c3t5DkcN) | |[Link](BOM%20reference%20images/Thermal%20cement.jpg) |
+| Thermal cement |  | 1 | Used to attach thermistor to stepper motor | [Link](https://s.click.aliexpress.com/e/_c3kuVKn1) | |[Link](BOM%20reference%20images/Thermal%20cement.jpg) |
 
 ---
 
