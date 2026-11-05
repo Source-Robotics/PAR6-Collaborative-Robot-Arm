@@ -126,12 +126,12 @@ Status options: `Open`, `In progress`, `Needs review`, `Blocked`, `Done`.
 | I want to | Go to |
 |---|---|
 | **Join the beta** | [beta sign-up form](https://docs.google.com/forms/d/e/1FAIpQLSfJVBVM5K6rCrFRtpijmTBLeePUdGDxUlWBni1VqBrAZwRCwg/viewform) · [beta guide](beta_guide.md) |
-| **Build my own** | [BOM](BOM/BOM.md) · [print files](3D%20Print%20Files/) · [print table](3D%20Print%20Files/PAR6%20Print%20Table.pdf) · [cables](Assembly%20manual/Building_cables.md) · videos: [the arm](https://youtu.be/3Rrd6hjBnM4), [robot cable](https://youtu.be/QlNfWAga1l0), [CAN and power wires](https://youtu.be/GOb1vQsjfOs) |
+| **Build my own** | [BOM](BOM/) · [print files](3D%20Print%20Files/) · [print table](3D%20Print%20Files/PAR6%20Print%20Table.pdf) · [cables](Assembly%20manual/Building_cables.md) · videos: [the arm](https://youtu.be/3Rrd6hjBnM4), [robot cable](https://youtu.be/QlNfWAga1l0), [CAN and power wires](https://youtu.be/GOb1vQsjfOs) |
 | **Build the control box** | [RCB-Robot-Control-Box](https://github.com/Source-Robotics/RCB-Robot-Control-Box) (PAR6 needs it) · [assembly video](https://youtu.be/qAzd839ixuw) |
 | **Set it up and make it move** | [drive setup](beta_guide.md) (beta guide) · [control box software setup](https://docs.source-robotics.com/par6/latest/rcb/05-software-setup/) |
 | **Program it** | [Programming Guide](https://docs.source-robotics.com/par6/latest/programming/) · [RCB-Runtime](https://github.com/Source-Robotics/RCB-Runtime) (with the Python client and the dashboard) |
 | **Simulate it** | [URDF and MuJoCo models](par6_description/) · [Simulation and AI Guide](https://docs.source-robotics.com/par6/latest/simulation/) |
-| **Add a gripper** | [MSG](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper) · [SSG-48](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper) · [pneumatic](BOM/BOM.md#pneumatics-optional) |
+| **Add a gripper** | [MSG](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper) · [SSG-48](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper) · [pneumatic](BOM/README.md#pneumatics-optional) |
 
 ## In this repository
 
