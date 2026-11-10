@@ -27,7 +27,7 @@
 
 | **6 axes** | **6 STEPFOC** | **Raspberry Pi 5** |
 |:-:|:-:|:-:|
-| NEMA 17 steppers | closed-loop drives, one per joint | in the Robot Control Box |
+| stepper motors | closed-loop drives | in the control box |
 
 </div>
 
@@ -133,7 +133,8 @@ Status options: `Open`, `In progress`, `Needs review`, `Blocked`, `Done`.
 | **Simulate it** | [URDF and MuJoCo models](par6_description/) · [Simulation and AI Guide](https://docs.source-robotics.com/par6/latest/simulation/) |
 | **Add a gripper** | [MSG](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper) · [SSG-48](https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper) · [pneumatic](BOM/README.md#pneumatics-optional) |
 
-## In this repository
+<details>
+<summary><b>What is in this repository</b></summary>
 
 | Folder | What is in it |
 |---|---|
@@ -149,6 +150,8 @@ There is no release yet: while PAR6 is in beta, the files on the main branch are
 firmware that go with them. The model files themselves live in
 [robot_descriptions](https://github.com/Source-Robotics/robot_descriptions): download the ZIP for your simulator from
 the [model guide](par6_description/); this repository needs no model submodule or recursive clone.
+
+</details>
 
 ## Community
 
@@ -185,17 +188,6 @@ PAR6 builds on:
   the real-time operating system image for the control box's Raspberry Pi
 
 ## Safety, liability and disclaimer
-
-This project includes experimental software, hardware designs, and assembly documentation that are still under
-development and may contain bugs, errors, or incomplete features. By using, building, or modifying this project, you
-acknowledge that:
-
-* You use this project entirely at your own risk
-* You are solely responsible for safe assembly, testing, and operation
-* No guarantee is made regarding correctness, safety, or reliability
-* The authors are not responsible for any damage, injury, or loss resulting from the use or misuse of this project
-* Hardware performance and safety depend on user assembly, component quality, calibration, and handling, which cannot be guaranteed
-* This project is provided “as is.” If you choose to build a device yourself using these files, designs, or instructions, you do so without any warranties or guarantees, including regarding safety, reliability, or suitability for any particular purpose.
 
 > [!WARNING]
 > THIS PROJECT INVOLVES LETHAL VOLTAGES AND OTHER SERIOUS HAZARDS THAT CAN CAUSE SEVERE INJURY. YOU MUST READ THE FULL [SAFETY WARNING AND DISCLAIMER DOCUMENT](SAFETY_WARNING_AND_DISCLAIMER.md)  BEFORE USING ANY PROJECT FILES. BY PROCEEDING, YOU ACKNOWLEDGE AND ACCEPT ALL RISKS AND AGREE TO USE THIS PROJECT ENTIRELY AT YOUR OWN RESPONSIBILITY.
